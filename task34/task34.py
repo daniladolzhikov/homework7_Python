@@ -15,3 +15,8 @@ def check_rhythm(poem):
         return "Парам пам-пам"
     else:
         return "Пам парам"
+
+
+poem_input = input("Введите стихотворение Винни-Пуха: ")
+result = check_rhythm(poem_input)
+print(result)
